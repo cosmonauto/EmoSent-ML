@@ -43,3 +43,28 @@ cat trimodal_emo.txt |  grep "Anger" | grep -P "Threshold:" | sort -k 6,6  | tai
 cat trimodal_emo.txt |  grep "Disgust" | grep -P "Threshold:" | sort -k 6,6  | tail -1 | cut -d$'\t' -f'5' >> Emotion-Multi-task.txt
 
 cat trimodal_emo.txt |  grep "Fear" | grep -P "Threshold:" | sort -k 6,6  | tail -1 | cut -d$'\t' -f'5' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Happy" | grep -P "Threshold:" | sort -k 6,6  | tail -1 | cut -d$'\t' -f'5' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Sad" | grep -P "Threshold:" | sort -k 6,6  | tail -1 | cut -d$'\t' -f'5' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Surprise" | grep -P "Threshold:" | sort -k 6,6  | tail -1 | cut -d$'\t' -f'5' >> Emotion-Multi-task.txt
+
+#####################################
+emotion-wise-WAcc
+#####################################
+echo "---------------Emotion-wise WAcc--------------" >> Emotion-Multi-task.txt
+cat trimodal_emo.txt |  grep "Anger" | grep -P "Threshold:" | sort -k 7,7  | tail -1 | cut -d$'\t' -f'6' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Disgust" | grep -P "Threshold:" | sort -k 7,7  | tail -1 | cut -d$'\t' -f'6' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Fear" | grep -P "Threshold:" | sort -k 7,7  | tail -1 | cut -d$'\t' -f'6' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Happy" | grep -P "Threshold:" | sort -k 7,7  | tail -1 | cut -d$'\t' -f'6' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Sad" | grep -P "Threshold:" | sort -k 7,7  | tail -1 | cut -d$'\t' -f'6' >> Emotion-Multi-task.txt
+
+cat trimodal_emo.txt |  grep "Surprise" | grep -P "Threshold:" | sort -k 7,7  | tail -1 | cut -d$'\t' -f'6' >> Emotion-Multi-task.txt
+
+
+
