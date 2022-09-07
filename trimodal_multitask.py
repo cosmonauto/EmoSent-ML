@@ -1,3 +1,4 @@
 import numpy as np, json
 import pickle, sys, argparse
-import ker
+import keras
+from keras.models import Model
