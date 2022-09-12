@@ -8,4 +8,4 @@ from keras.optimizers import RMSprop
 from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping, Callback, ModelCheckpoint
 from keras.layers import *
-from sklear
+from sklearn.metrics import classification_
