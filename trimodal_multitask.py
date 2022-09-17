@@ -8,4 +8,7 @@ from keras.optimizers import RMSprop
 from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping, Callback, ModelCheckpoint
 from keras.layers import *
-from sklearn.metrics import classification_report, confusion_matrix, precision_recall_fscore_support, accuracy_score, f1_sc
+from sklearn.metrics import classification_report, confusion_matrix, precision_recall_fscore_support, accuracy_score, f1_score
+global seed
+seed = 1337
+np.random.seed
