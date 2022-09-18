@@ -11,4 +11,6 @@ from keras.layers import *
 from sklearn.metrics import classification_report, confusion_matrix, precision_recall_fscore_support, accuracy_score, f1_score
 global seed
 seed = 1337
-np.random.seed
+np.random.seed(seed)
+import gc
+from sklearn.m
