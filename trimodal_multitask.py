@@ -13,4 +13,4 @@ global seed
 seed = 1337
 np.random.seed(seed)
 import gc
-from sklearn.m
+from sklearn.metrics import mean_squared_e
