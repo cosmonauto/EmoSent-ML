@@ -14,4 +14,5 @@ seed = 1337
 np.random.seed(seed)
 import gc
 from sklearn.metrics import mean_squared_error,mean_absolute_error
-from scipy.stats import pea
+from scipy.stats import pearsonr
+from scipy.spatial.distance
