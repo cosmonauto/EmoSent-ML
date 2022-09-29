@@ -18,4 +18,4 @@ from scipy.stats import pearsonr
 from scipy.spatial.distance import cosine
 #=============================================================
 import os
-os.
+os.environ["CUDA_DEVICE_ORDER"] = "PCI
