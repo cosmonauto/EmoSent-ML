@@ -22,4 +22,4 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 #=============================================================
 import tensorflow as tf
-from keras.
+from keras.backend.tensorflow_backend imp
