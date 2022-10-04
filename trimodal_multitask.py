@@ -23,4 +23,5 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 #=============================================================
 import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
-config = tf.
+config = tf.ConfigProto()
+config.gpu_op
