@@ -24,4 +24,5 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
 config = tf.ConfigProto()
-config.gpu_op
+config.gpu_options.allow_growth = True
+config.lo
