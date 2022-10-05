@@ -26,4 +26,5 @@ from keras.backend.tensorflow_backend import set_session
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 config.log_device_placement = True
-set_ses
+set_session(tf.Session(config=config))
+#
