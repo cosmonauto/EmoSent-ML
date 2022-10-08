@@ -29,4 +29,6 @@ config.log_device_placement = True
 set_session(tf.Session(config=config))
 #=============================================================
 
-def atten
+def attention(att_type, x, y):
+
+    if 
