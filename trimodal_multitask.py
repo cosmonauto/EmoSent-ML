@@ -27,4 +27,6 @@ config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 config.log_device_placement = True
 set_session(tf.Session(config=config))
-#==================================
+#=============================================================
+
+def atten
