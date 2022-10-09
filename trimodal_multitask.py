@@ -32,4 +32,4 @@ set_session(tf.Session(config=config))
 def attention(att_type, x, y):
 
     if att_type == 'simple':
-      
+        m_dash = dot([x, y], 
