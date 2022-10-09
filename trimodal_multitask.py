@@ -31,4 +31,5 @@ set_session(tf.Session(config=config))
 
 def attention(att_type, x, y):
 
-    if 
+    if att_type == 'simple':
+      
