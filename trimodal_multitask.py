@@ -34,4 +34,5 @@ def attention(att_type, x, y):
     if att_type == 'simple':
         m_dash = dot([x, y], axes=[2,2])
         m = Activation('softmax')(m_dash)
-        h_dash = dot([m, y], ax
+        h_dash = dot([m, y], axes=[2,1])
+        return multiply([
