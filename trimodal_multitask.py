@@ -38,4 +38,5 @@ def attention(att_type, x, y):
         return multiply([h_dash, x])
 
     elif att_type == 'gated':
-        alpha
+        alpha_dash = dot([y, x], axes=[2,2])
+    
