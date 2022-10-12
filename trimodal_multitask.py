@@ -39,4 +39,4 @@ def attention(att_type, x, y):
 
     elif att_type == 'gated':
         alpha_dash = dot([y, x], axes=[2,2])
-    
+        alpha = Activation('soft
