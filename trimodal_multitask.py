@@ -41,4 +41,7 @@ def attention(att_type, x, y):
         alpha_dash = dot([y, x], axes=[2,2])
         alpha = Activation('softmax')(alpha_dash)
         x_hat = Permute((2, 1))(dot([x, alpha], axes=[1,2]))
-        return multiply([y, x_h
+        return multiply([y, x_hat])
+
+    else:
+        print
