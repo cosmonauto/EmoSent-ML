@@ -46,4 +46,5 @@ def attention(att_type, x, y):
     else:
         print ('Attention type must be either simple or gated.')
 
-def e
+def emotionClass(testLabel):
+    trueL
