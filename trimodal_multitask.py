@@ -44,4 +44,6 @@ def attention(att_type, x, y):
         return multiply([y, x_hat])
 
     else:
-        print ('Attention type must be either
+        print ('Attention type must be either simple or gated.')
+
+def e
