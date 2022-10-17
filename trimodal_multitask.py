@@ -47,4 +47,5 @@ def attention(att_type, x, y):
         print ('Attention type must be either simple or gated.')
 
 def emotionClass(testLabel):
-    trueL
+    trueLabel     = []
+    for i in ra
