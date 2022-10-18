@@ -48,4 +48,5 @@ def attention(att_type, x, y):
 
 def emotionClass(testLabel):
     trueLabel     = []
-    for i in ra
+    for i in range(testLabel.shape[0]):
+  
