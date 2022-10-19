@@ -50,4 +50,5 @@ def emotionClass(testLabel):
     trueLabel     = []
     for i in range(testLabel.shape[0]):
         maxLen       = []
-        for j i
+        for j in range(testLabel.shape[1]):
+        
