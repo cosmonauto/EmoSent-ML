@@ -52,4 +52,5 @@ def emotionClass(testLabel):
         maxLen       = []
         for j in range(testLabel.shape[1]):
             temp = np.zeros((1,7),dtype=int)[0]
-            pos  = np.nonzero(testLabel[i
+            pos  = np.nonzero(testLabel[i][j])[0]
+            temp[pos] = 1
