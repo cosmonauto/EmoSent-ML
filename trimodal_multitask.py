@@ -55,4 +55,5 @@ def emotionClass(testLabel):
             pos  = np.nonzero(testLabel[i][j])[0]
             temp[pos] = 1
             maxLen.append(temp)
-        trueLabel.
+        trueLabel.append(maxLen)
+    trueLabel = n
