@@ -57,4 +57,6 @@ def emotionClass(testLabel):
             maxLen.append(temp)
         trueLabel.append(maxLen)
     trueLabel = np.array(trueLabel)
-    return trueL
+    return trueLabel
+
+def seventhClass(inputLabel, m
