@@ -59,4 +59,5 @@ def emotionClass(testLabel):
     trueLabel = np.array(trueLabel)
     return trueLabel
 
-def seventhClass(inputLabel, m
+def seventhClass(inputLabel, mask):
+    updatedLabel = np
