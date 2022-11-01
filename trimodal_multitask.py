@@ -60,4 +60,4 @@ def emotionClass(testLabel):
     return trueLabel
 
 def seventhClass(inputLabel, mask):
-    updatedLabel = np
+    updatedLabel = np.zeros((inputLabel.shape[0]
