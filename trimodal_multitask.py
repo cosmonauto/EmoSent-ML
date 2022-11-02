@@ -62,4 +62,5 @@ def emotionClass(testLabel):
 def seventhClass(inputLabel, mask):
     updatedLabel = np.zeros((inputLabel.shape[0],inputLabel.shape[1],7), dtype ='float')
     for i in range(inputLabel.shape[0]):
-        for j i
+        for j in range(list(mask[i]).count(1)):
+    
