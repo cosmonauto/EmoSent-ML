@@ -64,4 +64,5 @@ def seventhClass(inputLabel, mask):
     for i in range(inputLabel.shape[0]):
         for j in range(list(mask[i]).count(1)):
             suM = np.sum(inputLabel[i][j])
-            if suM == 0
+            if suM == 0:
+                updatedLabel[i][j
