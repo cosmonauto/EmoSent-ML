@@ -67,4 +67,4 @@ def seventhClass(inputLabel, mask):
             if suM == 0:
                 updatedLabel[i][j][6] = 1
             else:
-                update
+                updatedLabel[i][j][0:6] = input
