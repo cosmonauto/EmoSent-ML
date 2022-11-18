@@ -68,4 +68,4 @@ def seventhClass(inputLabel, mask):
                 updatedLabel[i][j][6] = 1
             else:
                 updatedLabel[i][j][0:6] = inputLabel[i][j]
-         
+                updatedLabel[i,j,np.
