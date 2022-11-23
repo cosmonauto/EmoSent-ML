@@ -71,4 +71,5 @@ def seventhClass(inputLabel, mask):
                 updatedLabel[i,j,np.nonzero(updatedLabel[i][j])[0]]=1
     return updatedLabel
 
-def 
+def featuresExtraction():
+    global tr
