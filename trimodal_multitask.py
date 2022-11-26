@@ -72,4 +72,4 @@ def seventhClass(inputLabel, mask):
     return updatedLabel
 
 def featuresExtraction():
-    global tr
+    global train_text, train_audio, train_v
