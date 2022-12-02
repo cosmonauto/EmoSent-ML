@@ -73,4 +73,5 @@ def seventhClass(inputLabel, mask):
 
 def featuresExtraction():
     global train_text, train_audio, train_video, senti_train_label, emo_train_label, train_mask
-    global valid_text, valid_audio, valid_video, senti_valid_label, emo_valid_lab
+    global valid_text, valid_audio, valid_video, senti_valid_label, emo_valid_label, valid_mask
+    global te
