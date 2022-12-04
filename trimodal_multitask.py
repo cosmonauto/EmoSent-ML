@@ -77,4 +77,4 @@ def featuresExtraction():
     global test_text, test_audio, test_video, senti_test_label, emo_test_label, test_mask
     global max_segment_len
 
-    text          
+    text          = np.load('MOSEI/text.npz',mmap_m
