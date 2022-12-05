@@ -78,4 +78,5 @@ def featuresExtraction():
     global max_segment_len
 
     text          = np.load('MOSEI/text.npz',mmap_mode='r')
-    audio         = np.load('M
+    audio         = np.load('MOSEI/audio.npz',mmap_mode='r')
+ 
