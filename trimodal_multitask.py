@@ -79,4 +79,6 @@ def featuresExtraction():
 
     text          = np.load('MOSEI/text.npz',mmap_mode='r')
     audio         = np.load('MOSEI/audio.npz',mmap_mode='r')
-    video         = np.load('
+    video         = np.load('MOSEI/video.npz',mmap_mode='r')
+
+  
