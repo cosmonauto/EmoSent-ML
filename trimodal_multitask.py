@@ -82,4 +82,5 @@ def featuresExtraction():
     video         = np.load('MOSEI/video.npz',mmap_mode='r')
 
     train_text    = text['train_data']
-    train_audio   = audio['
+    train_audio   = audio['train_data']
+    train_video  
