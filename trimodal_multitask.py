@@ -86,4 +86,5 @@ def featuresExtraction():
     train_video   = video['train_data']
 
     valid_text    = text['valid_data']
-    valid_audio   = audi
+    valid_audio   = audio['valid_data']
+    val
