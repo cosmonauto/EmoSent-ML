@@ -87,4 +87,6 @@ def featuresExtraction():
 
     valid_text    = text['valid_data']
     valid_audio   = audio['valid_data']
-    valid_video   = video['val
+    valid_video   = video['valid_data']
+
+    test_text   
