@@ -94,4 +94,4 @@ def featuresExtraction():
     test_video    = video['test_data']
 
 
-    sen
+    senti_train_label   = video['trainSentiLabel
