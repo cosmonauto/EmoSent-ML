@@ -96,4 +96,6 @@ def featuresExtraction():
 
     senti_train_label   = video['trainSentiLabel']
     senti_valid_label   = video['validSentiLabel']
-    senti_test_label    = video['testSentiLab
+    senti_test_label    = video['testSentiLabel']
+
+    senti_train_l
