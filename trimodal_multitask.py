@@ -100,3 +100,4 @@ def featuresExtraction():
 
     senti_train_label   = to_categorical(senti_train_label >= 0)
     senti_valid_label   = to_categorical(senti_valid_label >= 0)
+    senti_test_label
