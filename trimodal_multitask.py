@@ -106,4 +106,5 @@ def featuresExtraction():
     emo_valid_label   = video['validEmoLabel']
     emo_test_label    = video['testEmoLabel']
 
-    train_length  = 
+    train_length  = video['train_length']
+    val
