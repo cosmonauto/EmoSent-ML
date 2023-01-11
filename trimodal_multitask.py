@@ -103,4 +103,5 @@ def featuresExtraction():
     senti_test_label    = to_categorical(senti_test_label >= 0)
 
     emo_train_label   = video['trainEmoLabel']
-    emo_valid_label
+    emo_valid_label   = video['validEmoLabel']
+    
