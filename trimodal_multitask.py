@@ -109,3 +109,5 @@ def featuresExtraction():
     train_length  = video['train_length']
     valid_length  = video['valid_length']
     test_length   = video['test_length']
+
+    max_segment_len = train_text
