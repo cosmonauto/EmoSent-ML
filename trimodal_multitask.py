@@ -112,4 +112,4 @@ def featuresExtraction():
 
     max_segment_len = train_text.shape[1]
 
-    train_mask = np.zeros((train_
+    train_mask = np.zeros((train_video.shape[0], train_video.shape[1])
