@@ -116,4 +116,5 @@ def featuresExtraction():
     valid_mask = np.zeros((valid_video.shape[0], valid_video.shape[1]), dtype='float')
     test_mask  = np.zeros((test_video.shape[0], test_video.shape[1]), dtype='float')
 
-    for i in xrange(len(train_lengt
+    for i in xrange(len(train_length)):
+        train_mask[i,:t
