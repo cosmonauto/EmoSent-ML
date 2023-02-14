@@ -119,4 +119,5 @@ def featuresExtraction():
     for i in xrange(len(train_length)):
         train_mask[i,:train_length[i]]=1.0
 
-    for i in xrange(
+    for i in xrange(len(valid_length)):
+        vali
