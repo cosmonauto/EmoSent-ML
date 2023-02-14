@@ -120,4 +120,6 @@ def featuresExtraction():
         train_mask[i,:train_length[i]]=1.0
 
     for i in xrange(len(valid_length)):
-        vali
+        valid_mask[i,:valid_length[i]]=1.0
+
+    for i 
