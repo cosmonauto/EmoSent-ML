@@ -122,4 +122,5 @@ def featuresExtraction():
     for i in xrange(len(valid_length)):
         valid_mask[i,:valid_length[i]]=1.0
 
-    for i 
+    for i in xrange(len(test_length)):
+ 
