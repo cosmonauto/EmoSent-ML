@@ -125,4 +125,4 @@ def featuresExtraction():
     for i in xrange(len(test_length)):
         test_mask[i,:test_length[i]]=1.0
 
-    #==============
+    #====================== Add 7th class =============
