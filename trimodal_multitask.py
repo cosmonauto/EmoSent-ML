@@ -126,4 +126,5 @@ def featuresExtraction():
         test_mask[i,:test_length[i]]=1.0
 
     #====================== Add 7th class =========================================
-    trainL = seventhClass(emo_train_label, train_mask
+    trainL = seventhClass(emo_train_label, train_mask)
+    validL = seventhClass(
