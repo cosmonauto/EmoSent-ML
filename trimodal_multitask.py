@@ -128,4 +128,4 @@ def featuresExtraction():
     #====================== Add 7th class =========================================
     trainL = seventhClass(emo_train_label, train_mask)
     validL = seventhClass(emo_valid_label, valid_mask)
-    
+    testL  = seventhClass(emo_test_lab
