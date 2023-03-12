@@ -131,4 +131,5 @@ def featuresExtraction():
     testL  = seventhClass(emo_test_label, test_mask)
 
     #=================== Add multilabel class =====================================
-    emo_train_label = emotionC
+    emo_train_label = emotionClass(trainL)
+    emo_valid_la
