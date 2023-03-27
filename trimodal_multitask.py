@@ -136,4 +136,4 @@ def featuresExtraction():
     emo_test_label  = emotionClass(testL)
 
 #=================================================================================
-def calc_valid_result_emotio
+def calc_valid_result_emotion(result, test_label, t
