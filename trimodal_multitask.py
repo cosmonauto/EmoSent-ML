@@ -139,4 +139,6 @@ def featuresExtraction():
 def calc_valid_result_emotion(result, test_label, test_mask):
 
     true_label=[]
-    
+    predicted_label=[]
+
+  
