@@ -145,4 +145,5 @@ def calc_valid_result_emotion(result, test_label, test_mask):
         for j in range(result.shape[1]):
             if test_mask[i,j]==1:
                 true_label.append(test_label[i,j])
-                predicted_label.append(result
+                predicted_label.append(result[i,j])
+    true_label    
