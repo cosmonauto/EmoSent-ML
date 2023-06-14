@@ -147,4 +147,4 @@ def calc_valid_result_emotion(result, test_label, test_mask):
                 true_label.append(test_label[i,j])
                 predicted_label.append(result[i,j])
     true_label      = np.array(true_label)
-    pred
+    predicted_label = np.array(predic
