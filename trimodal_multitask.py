@@ -149,4 +149,6 @@ def calc_valid_result_emotion(result, test_label, test_mask):
     true_label      = np.array(true_label)
     predicted_label = np.array(predicted_label)
 
-    return true_label, predicted
+    return true_label, predicted_label
+
+def calc_vali
