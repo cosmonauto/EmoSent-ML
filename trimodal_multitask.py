@@ -151,4 +151,6 @@ def calc_valid_result_emotion(result, test_label, test_mask):
 
     return true_label, predicted_label
 
-def calc_valid_result_sentiment(result, tes
+def calc_valid_result_sentiment(result, test_label, test_mask):
+
+    true_l
