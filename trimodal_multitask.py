@@ -153,4 +153,5 @@ def calc_valid_result_emotion(result, test_label, test_mask):
 
 def calc_valid_result_sentiment(result, test_label, test_mask):
 
-    true_l
+    true_label=[]
+    predicted_l
