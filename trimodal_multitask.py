@@ -157,4 +157,5 @@ def calc_valid_result_sentiment(result, test_label, test_mask):
     predicted_label=[]
 
     for i in range(result.shape[0]):
-        for j in
+        for j in range(result.shape[1]):
+      
