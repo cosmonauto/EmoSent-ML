@@ -161,4 +161,4 @@ def calc_valid_result_sentiment(result, test_label, test_mask):
             if test_mask[i,j]==1:
                 true_label.append(np.argmax(test_label[i,j] ))
                 predicted_label.append(np.argmax(result[i,j] ))
-    re
+    return true_label, predicted_label
