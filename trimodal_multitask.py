@@ -163,4 +163,5 @@ def calc_valid_result_sentiment(result, test_label, test_mask):
                 predicted_label.append(np.argmax(result[i,j] ))
     return true_label, predicted_label
 
-def weighted_accuracy
+def weighted_accuracy(y_true, y_pred):
+    TP, TN, FN, FP,
