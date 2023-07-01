@@ -164,4 +164,5 @@ def calc_valid_result_sentiment(result, test_label, test_mask):
     return true_label, predicted_label
 
 def weighted_accuracy(y_true, y_pred):
-    TP, TN, FN, FP,
+    TP, TN, FN, FP, N, P = 0, 0, 0, 0, 0, 0
+    for 
