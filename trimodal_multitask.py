@@ -162,3 +162,5 @@ def calc_valid_result_sentiment(result, test_label, test_mask):
                 true_label.append(np.argmax(test_label[i,j] ))
                 predicted_label.append(np.argmax(result[i,j] ))
     return true_label, predicted_label
+
+def weighted_accuracy
