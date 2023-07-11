@@ -168,4 +168,5 @@ def weighted_accuracy(y_true, y_pred):
     for i,j in zip(y_true,y_pred):
         if i == 1 and i == j:
             TP += 1
-      
+        elif i == 0 and i == j:
+       
