@@ -172,4 +172,5 @@ def weighted_accuracy(y_true, y_pred):
            TN += 1
 
         if i == 1 and i != j:
-            
+            FN += 1
+        elif i == 0 an
