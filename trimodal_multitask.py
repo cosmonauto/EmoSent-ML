@@ -177,4 +177,6 @@ def weighted_accuracy(y_true, y_pred):
            FP += 1
 
         if i == 1:
-          
+            P += 1
+        else:
+           N += 
