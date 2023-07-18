@@ -181,4 +181,6 @@ def weighted_accuracy(y_true, y_pred):
         else:
            N += 1
 
-    w_acc = (1.0 * TP * (N / (1.0 
+    w_acc = (1.0 * TP * (N / (1.0 * P)) + TN) / (2.0 * N)
+
+    r
