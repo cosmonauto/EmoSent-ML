@@ -187,4 +187,5 @@ def weighted_accuracy(y_true, y_pred):
 #=================================================================================
 class MetricsCallback(keras.callbacks.Callback):
     def __init__(self, test_data):
-        #super
+        #super().__init__()
+        self.test_da
