@@ -192,3 +192,4 @@ class MetricsCallback(keras.callbacks.Callback):
 
     def on_train_begin(self, logs={}):
         self.Precision_senti    = []
+        self.Recall_senti       
