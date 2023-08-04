@@ -188,4 +188,6 @@ def weighted_accuracy(y_true, y_pred):
 class MetricsCallback(keras.callbacks.Callback):
     def __init__(self, test_data):
         #super().__init__()
-        self.test_da
+        self.test_data = test_data
+
+    def on_train_b
