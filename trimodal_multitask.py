@@ -190,4 +190,5 @@ class MetricsCallback(keras.callbacks.Callback):
         #super().__init__()
         self.test_data = test_data
 
-    def on_train_b
+    def on_train_begin(self, logs={}):
+        
