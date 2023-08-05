@@ -194,4 +194,5 @@ class MetricsCallback(keras.callbacks.Callback):
         self.Precision_senti    = []
         self.Recall_senti       = []
         self.Fscore_senti       = []
-        self.Accura
+        self.Accuracy_senti     = []
+        self.Weigh
