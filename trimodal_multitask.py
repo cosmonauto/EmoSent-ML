@@ -198,4 +198,5 @@ class MetricsCallback(keras.callbacks.Callback):
         self.Weighted_acc_senti = []
         self.Precision_emo      = []
         self.Recall_emo         = []
-     
+        self.Fscore_emo         = []
+ 
