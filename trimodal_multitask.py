@@ -200,4 +200,7 @@ class MetricsCallback(keras.callbacks.Callback):
         self.Recall_emo         = []
         self.Fscore_emo         = []
         self.Accuracy_emo       = []
-        self.Weighted_acc_emo   =
+        self.Weighted_acc_emo   = []
+
+
+    def on_epoch_end(se
