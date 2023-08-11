@@ -199,4 +199,4 @@ class MetricsCallback(keras.callbacks.Callback):
         self.Precision_emo      = []
         self.Recall_emo         = []
         self.Fscore_emo         = []
- 
+        self.Accuracy_emo     
