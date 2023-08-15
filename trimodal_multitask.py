@@ -203,4 +203,5 @@ class MetricsCallback(keras.callbacks.Callback):
         self.Weighted_acc_emo   = []
 
 
-    def on_epoch_end(se
+    def on_epoch_end(self, epoch, logs={}):
+        
