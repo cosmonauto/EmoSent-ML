@@ -204,4 +204,5 @@ class MetricsCallback(keras.callbacks.Callback):
 
 
     def on_epoch_end(self, epoch, logs={}):
-        x_data    = self.test_data[0
+        x_data    = self.test_data[0]
+        y_actual  = self.test_dat
