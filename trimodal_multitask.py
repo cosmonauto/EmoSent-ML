@@ -207,4 +207,6 @@ class MetricsCallback(keras.callbacks.Callback):
         x_data    = self.test_data[0]
         y_actual  = self.test_data[1]
 
-        #=============================== classification for sentiment ========
+        #=============================== classification for sentiment ============================
+
+        y
