@@ -209,4 +209,6 @@ class MetricsCallback(keras.callbacks.Callback):
 
         #=============================== classification for sentiment ============================
 
-        y_prediction = self.model.pred
+        y_prediction = self.model.predict(x_data)
+
+      
