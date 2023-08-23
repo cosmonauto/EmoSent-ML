@@ -211,4 +211,5 @@ class MetricsCallback(keras.callbacks.Callback):
 
         y_prediction = self.model.predict(x_data)
 
-        true_label_senti, predicted_label_senti = calc_valid_result_sentiment(y_prediction[0], y_act
+        true_label_senti, predicted_label_senti = calc_valid_result_sentiment(y_prediction[0], y_actual[0], test_mask)
+        w_ac
