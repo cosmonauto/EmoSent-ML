@@ -216,4 +216,4 @@ class MetricsCallback(keras.callbacks.Callback):
         open('results/'+modality+'_senti.txt', 'a').write(str(epoch)+'\t'+
                                       str(attn_type)+'\t'+
                                       str(accuracy_score(true_label_senti, predicted_label_senti))+'\t' +
-                     
+                                      str(preci
