@@ -215,4 +215,5 @@ class MetricsCallback(keras.callbacks.Callback):
         w_acc, TP, TN, FP, FN, P, N = weighted_accuracy(true_label_senti, predicted_label_senti)
         open('results/'+modality+'_senti.txt', 'a').write(str(epoch)+'\t'+
                                       str(attn_type)+'\t'+
-                                      str(accuracy_score(true_label_senti, predicted_label_se
+                                      str(accuracy_score(true_label_senti, predicted_label_senti))+'\t' +
+                     
