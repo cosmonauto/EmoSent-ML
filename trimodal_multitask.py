@@ -217,4 +217,5 @@ class MetricsCallback(keras.callbacks.Callback):
                                       str(attn_type)+'\t'+
                                       str(accuracy_score(true_label_senti, predicted_label_senti))+'\t' +
                                       str(precision_recall_fscore_support(true_label_senti, predicted_label_senti, average='weighted')[2])+'\t'+
-                                 
+                                      str(w_acc) + '\t('+
+     
