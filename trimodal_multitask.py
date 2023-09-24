@@ -218,4 +218,4 @@ class MetricsCallback(keras.callbacks.Callback):
                                       str(accuracy_score(true_label_senti, predicted_label_senti))+'\t' +
                                       str(precision_recall_fscore_support(true_label_senti, predicted_label_senti, average='weighted')[2])+'\t'+
                                       str(w_acc) + '\t('+
-                                      str(TP) + ',' + str(TN) + ',' + str(F
+                                      str(TP) + ',' + str(TN) + ',' + str(FP) + ',' + str(FN) + ','
