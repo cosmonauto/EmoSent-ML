@@ -220,4 +220,5 @@ class MetricsCallback(keras.callbacks.Callback):
                                       str(w_acc) + '\t('+
                                       str(TP) + ',' + str(TN) + ',' + str(FP) + ',' + str(FN) + ',' + str(P) + ',' + str(N) + ')\n')
 
-        #=============================== classification for Emotio
+        #=============================== classification for Emotion ============================
+ 
