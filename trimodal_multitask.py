@@ -224,4 +224,4 @@ class MetricsCallback(keras.callbacks.Callback):
         th=[0.10,0.15,0.16,0.17,0.18,0.19,0.20,0.21,0.22,0.23,0.24,0.25,0.30,0.35,0.40,0.50]
         for t in range(len(th)):
             print th[t]
-            emotion = ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad
+            emotion = ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'No Clas
