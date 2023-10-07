@@ -225,4 +225,6 @@ class MetricsCallback(keras.callbacks.Callback):
         for t in range(len(th)):
             print th[t]
             emotion = ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'No Class']
-            y_prediction
+            y_prediction = self.model.predict(x_data)
+
+     
