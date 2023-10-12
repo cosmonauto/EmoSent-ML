@@ -227,4 +227,4 @@ class MetricsCallback(keras.callbacks.Callback):
             emotion = ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'No Class']
             y_prediction = self.model.predict(x_data)
 
-     
+            y_prediction[1][y_predi
