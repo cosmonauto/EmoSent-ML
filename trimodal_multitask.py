@@ -228,4 +228,4 @@ class MetricsCallback(keras.callbacks.Callback):
             y_prediction = self.model.predict(x_data)
 
             y_prediction[1][y_prediction[1] >= th[t]]  = 1
-            y_pr
+            y_prediction[1][y_prediction[1] <  th[t]]  
