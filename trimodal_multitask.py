@@ -230,4 +230,4 @@ class MetricsCallback(keras.callbacks.Callback):
             y_prediction[1][y_prediction[1] >= th[t]]  = 1
             y_prediction[1][y_prediction[1] <  th[t]]  = 0
 
-            true_label_emo, predicted_label_emo = calc_valid_r
+            true_label_emo, predicted_label_emo = calc_valid_result_emotion(y_prediction[1], y
