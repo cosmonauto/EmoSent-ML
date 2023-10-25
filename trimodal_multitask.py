@@ -232,4 +232,5 @@ class MetricsCallback(keras.callbacks.Callback):
 
             true_label_emo, predicted_label_emo = calc_valid_result_emotion(y_prediction[1], y_actual[1], test_mask)
 
-     
+            Acc_emo     = []
+    
