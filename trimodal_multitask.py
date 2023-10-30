@@ -235,4 +235,5 @@ class MetricsCallback(keras.callbacks.Callback):
             Acc_emo     = []
             F1Score_emo = []
             wAcc_emo    = []
-         
+            for i in range(7):
+       
