@@ -237,4 +237,4 @@ class MetricsCallback(keras.callbacks.Callback):
             wAcc_emo    = []
             for i in range(7):
                 Acc_emo.append(accuracy_score(true_label_emo[:,i], predicted_label_emo[:,i]))
-                F1Score_emo.append(precision_recall_fscore_support(true_label_emo[:,i],
+                F1Score_emo.append(precision_recall_fscore_support(true_label_emo[:,i], predicted_label_emo[:,i], averag
