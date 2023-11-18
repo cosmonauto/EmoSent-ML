@@ -240,4 +240,4 @@ class MetricsCallback(keras.callbacks.Callback):
                 F1Score_emo.append(precision_recall_fscore_support(true_label_emo[:,i], predicted_label_emo[:,i], average='weighted')[2])
                 wAcc_emo.append(weighted_accuracy(true_label_emo[:,i], predicted_label_emo[:,i])[0])
 
- 
+                w_acc, TP, T
