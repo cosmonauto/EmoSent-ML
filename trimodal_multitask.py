@@ -241,4 +241,4 @@ class MetricsCallback(keras.callbacks.Callback):
                 wAcc_emo.append(weighted_accuracy(true_label_emo[:,i], predicted_label_emo[:,i])[0])
 
                 w_acc, TP, TN, FP, FN, P, N = weighted_accuracy(true_label_emo[:,i], predicted_label_emo[:,i])
-       
+                open('results/'+modality+'_e
