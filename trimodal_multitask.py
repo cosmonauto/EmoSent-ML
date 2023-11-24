@@ -243,4 +243,5 @@ class MetricsCallback(keras.callbacks.Callback):
                 w_acc, TP, TN, FP, FN, P, N = weighted_accuracy(true_label_emo[:,i], predicted_label_emo[:,i])
                 open('results/'+modality+'_emo.txt', 'a').write('Threshold: ' + str(th[t]) +'\t'+
                                                   str(epoch)+'\t'+
-                                                 
+                                                  str(attn_type)+'\t'+
+    
