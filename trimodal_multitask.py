@@ -245,4 +245,4 @@ class MetricsCallback(keras.callbacks.Callback):
                                                   str(epoch)+'\t'+
                                                   str(attn_type)+'\t'+
                                                   str(accuracy_score(true_label_emo[:,i], predicted_label_emo[:,i]))+'\t' +
-                                           
+                                                  str(precision_recall_fsc
