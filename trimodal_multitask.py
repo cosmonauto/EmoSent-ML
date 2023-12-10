@@ -246,4 +246,5 @@ class MetricsCallback(keras.callbacks.Callback):
                                                   str(attn_type)+'\t'+
                                                   str(accuracy_score(true_label_emo[:,i], predicted_label_emo[:,i]))+'\t' +
                                                   str(precision_recall_fscore_support(true_label_emo[:,i], predicted_label_emo[:,i], average='weighted')[2])+'\t'+
-                                    
+                                                  str(w_acc) + '\t('+
+   
