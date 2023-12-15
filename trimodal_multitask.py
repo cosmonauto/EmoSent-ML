@@ -248,4 +248,6 @@ class MetricsCallback(keras.callbacks.Callback):
                                                   str(precision_recall_fscore_support(true_label_emo[:,i], predicted_label_emo[:,i], average='weighted')[2])+'\t'+
                                                   str(w_acc) + '\t('+
                                                   str(TP) + ',' + str(TN) + ',' + str(FP) + ',' + str(FN) + ',' + str(P) + ',' + str(N) + ')\t'+
-                                                  str(emotion[i
+                                                  str(emotion[i])+'\n')
+
+            open('re
