@@ -250,4 +250,4 @@ class MetricsCallback(keras.callbacks.Callback):
                                                   str(TP) + ',' + str(TN) + ',' + str(FP) + ',' + str(FN) + ',' + str(P) + ',' + str(N) + ')\t'+
                                                   str(emotion[i])+'\n')
 
-            open('re
+            open('results/'+modality+'_emo.txt',
