@@ -251,4 +251,4 @@ class MetricsCallback(keras.callbacks.Callback):
                                                   str(emotion[i])+'\n')
 
             open('results/'+modality+'_emo.txt', 'a').write('Threshold: ' + str(th[t]) +'\t'+
-                 
+                                          
