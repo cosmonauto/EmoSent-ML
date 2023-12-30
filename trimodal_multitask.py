@@ -254,4 +254,5 @@ class MetricsCallback(keras.callbacks.Callback):
                                               str(epoch)+'\t'+
                                               str(attn_type)+'\t'+
                                               str(np.average(Acc_emo)) + '\t'+
-                                              str(np.aver
+                                              str(np.average(F1Score_emo))+ '\t'+
+      
