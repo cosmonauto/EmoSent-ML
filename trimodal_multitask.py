@@ -255,4 +255,6 @@ class MetricsCallback(keras.callbacks.Callback):
                                               str(attn_type)+'\t'+
                                               str(np.average(Acc_emo)) + '\t'+
                                               str(np.average(F1Score_emo))+ '\t'+
-                                              str(np.average(wAcc_emo)) + '\t()'+'\tave
+                                              str(np.average(wAcc_emo)) + '\t()'+'\taverage\n')
+
+def multimodal_cross_
