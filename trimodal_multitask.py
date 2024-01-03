@@ -257,4 +257,6 @@ class MetricsCallback(keras.callbacks.Callback):
                                               str(np.average(F1Score_emo))+ '\t'+
                                               str(np.average(wAcc_emo)) + '\t()'+'\taverage\n')
 
-def multimodal_cross_attention(attn_type, recurrent, t
+def multimodal_cross_attention(attn_type, recurrent, timedistributed):
+
+    featu
