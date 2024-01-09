@@ -259,4 +259,5 @@ class MetricsCallback(keras.callbacks.Callback):
 
 def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
-    featu
+    featuresExtraction()
+    global modal
