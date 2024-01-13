@@ -262,4 +262,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
     featuresExtraction()
     global modality, emoName
     modality = 'trimodal'
-    emoName  = ['Anger','Di
+    emoName  = ['Anger','Disgust','Fear','Happy','Sad','Surprise']
+
