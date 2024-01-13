@@ -260,4 +260,5 @@ class MetricsCallback(keras.callbacks.Callback):
 def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
     featuresExtraction()
-    global modal
+    global modality, emoName
+    modality = 'tri
