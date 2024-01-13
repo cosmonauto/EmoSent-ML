@@ -264,3 +264,6 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
     modality = 'trimodal'
     emoName  = ['Anger','Disgust','Fear','Happy','Sad','Surprise']
 
+    runs = 1
+
+    for run in
