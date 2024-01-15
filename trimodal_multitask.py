@@ -266,4 +266,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
     runs = 1
 
-    for run in
+    for run in range(runs):
+        ###########
