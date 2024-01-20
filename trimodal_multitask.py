@@ -268,4 +268,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
     for run in range(runs):
         ################################### model architecture #################################
-        in_text = Input(shape=(train
+        in_text = Input(shape=(train_text.shape[1], train_text.shape[2]))
+   
