@@ -271,4 +271,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         in_text = Input(shape=(train_text.shape[1], train_text.shape[2]))
         in_audio = Input(shape=(train_audio.shape[1], train_audio.shape[2]))
         in_video = Input(shape=(train_video.shape[1], train_video.shape[2]))
-        ###
+        ########### masking layer #
