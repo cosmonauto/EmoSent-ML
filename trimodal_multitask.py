@@ -276,4 +276,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         masked_audio = Masking(mask_value=0)(in_audio)
         masked_video = Masking(mask_value=0)(in_video)
         ########### recurrent layer ############
-       
+        drop0 = 0.3
+        drop1
