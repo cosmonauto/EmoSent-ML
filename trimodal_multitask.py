@@ -279,3 +279,6 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         drop0 = 0.3
         drop1 = 0.3
         r_drop = 0.3
+        r_units = 200
+
+        if
