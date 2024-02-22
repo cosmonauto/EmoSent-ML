@@ -282,4 +282,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         r_units = 200
 
         if recurrent:
-            rnn_text = B
+            rnn_text = Bidirectional(GRU(r_units, return_sequen
