@@ -286,4 +286,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
                                      merge_mode='concat')(masked_text)
             rnn_audio = Bidirectional(GRU(r_units, return_sequences=True, dropout=r_drop, recurrent_dropout=r_drop),
                                       merge_mode='concat')(masked_audio)
-            rnn_video = Bidirectional(GRU(r_unit
+            rnn_video = Bidirectional(GRU(r_units, return_sequences=True, drop
