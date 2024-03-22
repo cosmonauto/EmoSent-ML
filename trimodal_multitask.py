@@ -297,4 +297,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             inter_audio = Dropout(drop0)(masked_audio)
             inter_video = Dropout(drop0)(masked_video)
 
-     
+        ########### timedistribu
