@@ -298,4 +298,6 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             inter_video = Dropout(drop0)(masked_video)
 
         ########### timedistributed dense layer ############
-        td_uni
+        td_units = 100
+
+        if tim
