@@ -300,4 +300,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         ########### timedistributed dense layer ############
         td_units = 100
 
-        if tim
+        if timedistributed:
+       
