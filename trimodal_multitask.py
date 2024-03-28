@@ -301,4 +301,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         td_units = 100
 
         if timedistributed:
-            td_text = Dropout(drop1)(TimeDistributed(Dense(td_units, a
+            td_text = Dropout(drop1)(TimeDistributed(Dense(td_units, activation='relu'))(inter_text))
+ 
