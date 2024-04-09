@@ -309,4 +309,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             td_audio = inter_audio
             td_video = inter_video
 
-        ########### attenti
+        ########### attention layer ############
+        #
