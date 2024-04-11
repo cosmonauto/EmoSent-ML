@@ -310,4 +310,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             td_video = inter_video
 
         ########### attention layer ############
-        ## cross modal cross utterance 
+        ## cross modal cross utterance attention ##
+        if attn_type
