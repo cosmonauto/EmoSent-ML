@@ -311,4 +311,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
         ########### attention layer ############
         ## cross modal cross utterance attention ##
-        if attn_type
+        if attn_type == 'CIM':
+            va_att =
