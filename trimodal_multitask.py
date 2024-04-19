@@ -315,4 +315,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             va_att = attention('simple', td_video, td_audio)
             vt_att = attention('simple', td_video, td_text)
             av_att = attention('simple', td_audio, td_video)
-            at_att = attention('si
+            at_att = attention('simple', td_audio, td_text)
+        
