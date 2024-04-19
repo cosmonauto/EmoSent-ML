@@ -314,4 +314,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         if attn_type == 'CIM':
             va_att = attention('simple', td_video, td_audio)
             vt_att = attention('simple', td_video, td_text)
-            av_att = attention(
+            av_att = attention('simple', td_audio, td_video)
+  
