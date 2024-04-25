@@ -319,4 +319,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             tv_att = attention('simple', td_text, td_video)
             ta_att = attention('simple', td_text, td_audio)
 
-            merged = concatenate([va_att, vt_att, av_att, at
+            merged = concatenate([va_att, vt_att, av_att, at_att, tv_att, ta_att, td_video,
