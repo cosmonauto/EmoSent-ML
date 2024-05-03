@@ -324,4 +324,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         ## uni modal cross utterance attention ##
         elif attn_type == 'ummu':
             vv_att = attention('simple', td_video, td_video)
-           
+            tt_att = attention('simple', td_t
