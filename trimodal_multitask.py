@@ -325,4 +325,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         elif attn_type == 'ummu':
             vv_att = attention('simple', td_video, td_video)
             tt_att = attention('simple', td_text, td_text)
-           
+            aa_att = attention('simple', 
