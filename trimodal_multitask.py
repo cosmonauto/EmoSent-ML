@@ -331,4 +331,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
         ## no attention ##
         elif attn_type == 'None':
-            merged = 
+            merged = concatenate([td_video, td_audi
