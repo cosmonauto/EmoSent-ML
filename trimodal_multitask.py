@@ -333,4 +333,6 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         elif attn_type == 'None':
             merged = concatenate([td_video, td_audio, td_text])
         else:
-            print ("attn type must be either 'CIM' or 'ummu
+            print ("attn type must be either 'CIM' or 'ummu' or 'cmuu' or 'None'.")
+
+ 
