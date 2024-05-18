@@ -335,4 +335,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         else:
             print ("attn type must be either 'CIM' or 'ummu' or 'cmuu' or 'None'.")
 
-        ########### outp
+        ########### output layer ############
+  
