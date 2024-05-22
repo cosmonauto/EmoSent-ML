@@ -336,4 +336,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
             print ("attn type must be either 'CIM' or 'ummu' or 'cmuu' or 'None'.")
 
         ########### output layer ############
-        output_sentiment = TimeDistributed(Dense(2, activation='softmax'), name='output_se
+        output_sentiment = TimeDistributed(Dense(2, activation='softmax'), name='output_sentiment')(merged)
+        o
