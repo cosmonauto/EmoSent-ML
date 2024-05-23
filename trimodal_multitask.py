@@ -337,4 +337,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
         ########### output layer ############
         output_sentiment = TimeDistributed(Dense(2, activation='softmax'), name='output_sentiment')(merged)
-        o
+        output_emotion   = TimeDistribu
