@@ -341,4 +341,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         model = Model([in_text, in_audio, in_video], [output_sentiment, output_emotion])
         model.compile(optimizer='adam', loss={'output_sentiment':'categorical_crossentropy', 'output_emotion':'binary_crossentropy'}, sample_weight_mode='temporal', metrics = {'output_sentiment': 'accuracy','output_emotion': 'accuracy'})
 
-        ##############
+        ###################### model training
