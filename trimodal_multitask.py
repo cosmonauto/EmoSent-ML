@@ -343,4 +343,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
         ###################### model training #######################
         np.random.seed(run)
-        path
+        path1 = 'weights/sentiment_'+modal
