@@ -346,4 +346,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         path1 = 'weights/sentiment_'+modality+'_'+str(run)+'.hdf5'
         path2 = 'weights/emotion_'+modality+'_'+str(run)+'.hdf5'
 
-        earlySt
+        earlyStop_sentiment = EarlyStopping(monito
