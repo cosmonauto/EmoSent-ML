@@ -349,4 +349,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         earlyStop_sentiment = EarlyStopping(monitor='val_output_sentiment_loss', patience=20)
         earlyStop_emotion = EarlyStopping(monitor='val_output_emotion_loss', patience=20)
         bestModel_sentiment = ModelCheckpoint(path1, monitor='val_output_sentiment_acc', verbose=1, save_best_only=True, mode='max')
-        bestModel_emotion =
+        bestModel_emotion = ModelCheckpoint(path2, monitor='val
