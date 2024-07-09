@@ -352,4 +352,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         bestModel_emotion = ModelCheckpoint(path2, monitor='val_output_emotion_acc', verbose=1, save_best_only=True, mode='max')
 
         metrics_callback = MetricsCallback(test_data=([test_text, test_audio, test_video], [senti_test_label, emo_test_label]))
-        history = 
+        history = model.fit([train_text, tra
