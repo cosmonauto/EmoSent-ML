@@ -355,4 +355,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         history = model.fit([train_text, train_audio, train_video], [senti_train_label, emo_train_label],
                             epochs=50,
                             batch_size=16,
-                            sample_weight=[train_
+                            sample_weight=[train_mask, train_mask],
+            
