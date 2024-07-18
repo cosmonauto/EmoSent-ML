@@ -354,4 +354,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
         metrics_callback = MetricsCallback(test_data=([test_text, test_audio, test_video], [senti_test_label, emo_test_label]))
         history = model.fit([train_text, train_audio, train_video], [senti_train_label, emo_train_label],
                             epochs=50,
-                      
+                            batch_size=16,
+                   
