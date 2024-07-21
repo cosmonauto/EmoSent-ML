@@ -356,4 +356,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
                             epochs=50,
                             batch_size=16,
                             sample_weight=[train_mask, train_mask],
-            
+                            shuffle=Tru
