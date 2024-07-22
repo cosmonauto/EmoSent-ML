@@ -357,4 +357,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
                             batch_size=16,
                             sample_weight=[train_mask, train_mask],
                             shuffle=True,
-                            callbacks=[metrics_callback, bestModel_sentiment, bestModel
+                            callbacks=[metrics_callback, bestModel_sentiment, bestModel_emotion],
+          
