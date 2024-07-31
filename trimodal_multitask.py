@@ -359,4 +359,4 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
                             shuffle=True,
                             callbacks=[metrics_callback, bestModel_sentiment, bestModel_emotion],
                             validation_data=([valid_text, valid_audio, valid_video], [senti_valid_label,emo_valid_label], [valid_mask,valid_mask]),
-         
+                            verbose=1)
