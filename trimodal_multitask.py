@@ -364,4 +364,5 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
 if __name__ == "__main__":
     global attn_type
-    attn_type =
+    attn_type = 'CIM'
+    multimodal_cross_attention
