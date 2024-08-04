@@ -362,4 +362,6 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
                             verbose=1)
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
+    global attn_type
+    attn_type =
